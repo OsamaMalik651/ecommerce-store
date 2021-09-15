@@ -1,11 +1,9 @@
 import "./App.css";
-import HomePage from "./homepage.component";
+import HomePage from "./page/homepage/homepage.component";
 
 function App() {
   return (
     <div className="">
-      Hello world
-      <h1>ABCd</h1>
       <HomePage />
     </div>
   );
